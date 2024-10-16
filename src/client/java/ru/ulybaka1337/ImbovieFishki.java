@@ -1,9 +1,9 @@
-package com.example;
+package ru.ulybaka1337;
 
-import com.example.commands.ExampleCommand;
-import com.example.hud.ExampleHudElement;
-import com.example.modules.ExampleModule;
-import net.fabricmc.api.ModInitializer;
+import ru.ulybaka1337.commands.ExampleCommand;
+import ru.ulybaka1337.hud.ExampleHudElement;
+import ru.ulybaka1337.modules.CloseGUIWIthoutPacket;
+import ru.ulybaka1337.modules.ExampleModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import thunder.hack.api.IAddon;
@@ -11,52 +11,51 @@ import thunder.hack.features.cmd.Command;
 import thunder.hack.features.hud.HudElement;
 import thunder.hack.features.modules.Module;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
-public class ExampleMod implements IAddon {
+public class ImbovieFishki implements IAddon {
 	public static final Logger LOGGER = LoggerFactory.getLogger("modid");
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("IMBOVIEFISHKI has initialized");
 	}
 
 	@Override
 	public List<Module> getModules() {
 		// Return a list of your modules here
-		return Arrays.asList(new ExampleModule());
+		return Arrays.asList(new CloseGUIWIthoutPacket());
 	}
 
 	@Override
 	public List<Command> getCommands() {
-		return Arrays.asList(new ExampleCommand());
+		return null;
 	}
 
 	@Override
 	public List<HudElement> getHudElements() {
-		return Arrays.asList(new ExampleHudElement());
+		return null;
 	}
 
 	@Override
 	public String getPackage() {
-		return "com.example";
+		return "ru.ulybaka1337";
 	}
 
 	@Override
 	public String getName() {
-		return "ExampleMod";
+		return "Imboviefishki";
 	}
 
 	@Override
 	public String getAuthor() {
-		return "cvs0";
+		return "ulybaka1337";
 	}
 
 	@Override
 	public String getRepo() {
-		return "https://github.com/cvs0/ThunderHack-Recode-Addon-Template";
+		return "https://github.com/ulybaka1337/imboviefishki";
 	}
 
 	@Override

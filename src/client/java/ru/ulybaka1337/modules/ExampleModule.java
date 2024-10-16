@@ -1,6 +1,5 @@
-package com.example.modules;
+package ru.ulybaka1337.modules;
 
-import com.example.ExampleMod;
 import thunder.hack.features.modules.Module;
 
 public class ExampleModule extends Module  {

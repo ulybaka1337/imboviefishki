@@ -1,22 +1,22 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "imboviefishki",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "ImbovieFishki Addon",
+	"description": "ВТСАВЬТЕ ТЕКСТ",
 	"authors": [
-		"cvs0"
+		"ulybaka1337"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/7radMBMnNZ",
+		"sources": "https://github.com/ulybaka1337/imboviefishki"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"thunderhack": [
-			"com.example.ExampleMod"
+			"ru.ulybaka1337.ImbovieFishki"
 		]
 	},
 	"depends": {

@@ -1,4 +1,4 @@
-package com.example.hud;
+package ru.ulybaka1337.hud;
 
 import thunder.hack.features.hud.HudElement;
 import net.minecraft.util.Formatting;
@@ -11,8 +11,6 @@ import thunder.hack.utility.render.Render2DEngine;
 import com.mojang.blaze3d.platform.GlStateManager;
 import com.mojang.blaze3d.systems.RenderSystem;
 import net.minecraft.client.gui.DrawContext;
-import net.minecraft.util.Formatting;
-import net.minecraft.util.Identifier;
 
 import java.awt.*;
 
